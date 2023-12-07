@@ -6,8 +6,19 @@ body
     background-color: gray;
     background-image: url(ecran_base.png);
     background-size: 100%;
-    /* background-position: center; */
-    /* background-position: 100% 100%; */
+}
+
+h1.main_gab
+{
+    color: rgb(0, 0, 0);
+    font-size: 6em;
+    border-radius: 12px;
+    margin-left: 10.5em;
+    margin-top: -1.35em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-display: auto;
+    top: 1em;
 }
 
 h1.main_titre
@@ -16,11 +27,10 @@ h1.main_titre
     font-size: 6em;
     box-shadow: 25px 15px 30px rgb(0, 0, 0);
     border-radius: 12px;
-    margin-left: 1em;
+    margin-left: 6em;
     margin-top: 1em;
-    margin-right: 1em;
+    margin-right: 5em;
     margin-bottom: 1em;
-    /* background-color: rgba(68, 221, 221, 0.326); */
     position: relative;
     font-display: auto;
     top: 1em;
@@ -48,12 +58,12 @@ button.button_play {
     font-weight: bold;
     margin: 5px auto;
     padding: 1em 4em;
-    position: relative;
+    position: static;
     text-transform: uppercase;
-    background-color: rgba(255, 0, 0, 0.398);
+    background-color: rgba(128, 255, 0, 0.398);
 }
 button.button_play::after {
-    background: rgba(255, 0, 0, 0.714);
+    background: rgba(64, 255, 0, 0.714);
     position: absolute;
     z-index: -1;
 }

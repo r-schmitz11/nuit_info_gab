@@ -4,7 +4,7 @@
 body
 {
     background-color: gray;
-    background-image: url(ecran_base.png);
+    background-image: url(ressources/ecran_base.png);
     background-size: 100%;
 }
 

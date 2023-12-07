@@ -85,3 +85,7 @@ button.button_play:hover {
     padding-bottom: -1em;
     border: 15px;
 }
+
+a {
+    text-decoration: none;
+}

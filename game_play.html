@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <title>Le Game Gab</title>
-        <link rel="stylesheet" href="game.css">
-    </head>
-    <body>
-        <h1>Test</h1>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <link  rel="stylesheet" href="game.css" >
+    <title>Le GAB en jeu</title>
+</head>
+<body>
+    <div class="image">
+
+        <img src="./ressources/poubelle.png" height="200px" width="200px" style="position:absolute; left:-25px; top: 685px;">
+        <img src="./ressources/poubelle.png" height="200px" width="200px" style="position:absolute; left:320px; top: 682px;">
+        <img src="./ressources/poubelle.png" height="200px" width="200px" style="position:absolute; left:1300px; top: 685px;">
+    </div>
+    <div class="dechet">
+        <img src="./ressources/paper.png" id="paper">
+    </div>
+    <div>
+        <p>Score : <spam id="score">0</spam></p>
+    </div>
+    <script src="move.js"></script>
+    <div class="main">
+        <a href="site.html">
+            <button class="go_back">End</button>
+        </a>
+    </div>
+</body>
 </html>

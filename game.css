@@ -1,0 +1,41 @@
+button.go_back {
+    box-shadow: 10px -3px 30px rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.537);
+    display: block;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 5px auto;
+    bottom: 0px;
+    left: 3px;
+    position: absolute;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.398);
+}
+
+body {
+    background-image: url(./ressources/background_game.jpg);
+    background-size: 100%;
+}
+
+#paper {
+    position: absolute;
+    top: -170px;
+    left: 620px;
+    height: 100px;
+    width: 100px;
+    transform: translateX(-50%);
+}
+
+#getData {
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #4f4d4d;
+}
+
+p {
+    margin: auto;
+    font-size: 1.4em;
+}
